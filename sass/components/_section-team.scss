@@ -1,0 +1,95 @@
+.team {
+    background-color: $secondary-backgrcolor;
+}
+
+.team__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    @media screen and (min-width: $desktop) {
+        flex-wrap: nowrap;
+    }
+}
+
+.team__item {
+    width: 100%;
+    padding-bottom: 24px;
+
+    background-color: $primary-backgrcolor;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    @media screen and (min-width: $tablet) {
+        width: calc((100% - 30px) / 2);
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: calc((100% - 90px) / 4);
+        padding-bottom: 30px;
+    }
+}
+
+.team__foto {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.team__name {
+    margin-bottom: 10px;
+
+    background-color: $primary-backgrcolor;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team__profession {
+    margin-bottom: 16px;
+
+    background-color: $primary-backgrcolor;
+
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.team__soc-netw-list {
+    display: flex;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 206px;
+    justify-content: space-between;
+}
+
+.team__soc-netw-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    color: #afb1b8;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: $primary-backgrcolor;
+        background-color: $accent-color;
+    }
+}
+
+.team__soc-netw-icon {
+    fill: currentColor;
+}

@@ -1,0 +1,63 @@
+body {
+    background-color: $primary-backgrcolor;
+    color: $primary-txtcolor;
+
+    font-family: $primary-font, sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+
+    color: $secondary-txtcolor;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        color: $accent-color;
+    }
+    &:focus {
+        color: $accent-color;
+    }
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin-bottom: 30px;
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 50px;
+
+        font-size: 36px;
+        line-height: 1.17;
+    }
+}
