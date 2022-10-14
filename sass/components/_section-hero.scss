@@ -62,7 +62,6 @@
 
 .hero__title {
     max-width: 360px;
-    min-width: 360px;
 
     color: $light-txtcolor;
 
@@ -84,9 +83,6 @@
 
 .hero__btn {
     padding: 10px 24px;
-
-    min-width: 200px;
-    height: 50px;
 
     background-color: $accent-color;
     color: $light-txtcolor;
