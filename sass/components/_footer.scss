@@ -19,21 +19,11 @@
     }
     @media screen and (min-width: $tablet) and (max-width: 1199.98px) {
         column-gap: 165px;
-        row-gap: 30px;
+        row-gap: 60px;
     }
     @media screen and (min-width: $desktop) {
         flex-wrap: nowrap;
         justify-content: flex-start;
-    }
-}
-
-.footer__break-row {
-    display: none;
-    width: 100%;
-    height: 0;
-
-    @media screen and (min-width: $tablet) and (max-width: 1199.98px) {
-        display: block;
     }
 }
 
@@ -60,6 +50,10 @@
 }
 
 .address__item {
+    &:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
     @media screen and (min-width: $desktop) {
         &:not(:last-child) {
             margin-bottom: 9px;
