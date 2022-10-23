@@ -7,8 +7,8 @@
 
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         image-set(
-            url('../../images/mobile-img/hero/hero-mobile.jpg') 1x,
-            url('../../images/mobile-img/hero/hero-mobile@2x.jpg') 2x
+            url('../images/mobile-img/hero/hero-mobile.jpg') 1x,
+            url('../images/mobile-img/hero/hero-mobile@2x.jpg') 2x
         );
     background-repeat: no-repeat;
     background-position: center;
@@ -20,8 +20,8 @@
 
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             image-set(
-                url('../../images/tablet-img/hero/hero-tablet.jpg') 1x,
-                url('../../images/tablet-img/hero/hero-tablet@2x.jpg') 2x
+                url('../images/tablet-img/hero/hero-tablet.jpg') 1x,
+                url('../images/tablet-img/hero/hero-tablet@2x.jpg') 2x
             );
     }
 
